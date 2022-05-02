@@ -189,9 +189,9 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 78px 132px 0 112px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 107px;
 }
 
@@ -863,6 +863,102 @@ html, body {
   }
   .block_header__title {
     font-size: 85px;
+  }
+  .block_header__descr {
+    font-size: 18px;
+  }
+  .block_header-btm__descr {
+    font-size: 18px;
+  }
+  .block-main__descr {
+    font-size: 18px;
+  }
+  .block-descr__text {
+    font-size: 18px;
+  }
+  .descr-btm__text {
+    font-size: 18px;
+  }
+  .descr-menu__text {
+    font-size: 18px;
+    padding: 13px 18px;
+  }
+  .footer__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 0 auto;
+    width: 480px;
+    background: url("../img/bg-color.png") center no-repeat;
+  }
+  .block_head {
+    padding: 50px 50px 0 50px;
+  }
+  .block_head__links {
+    margin-right: 70px;
+    font-size: 48px;
+  }
+  .block_head__btn {
+    font-size: 34px;
+    padding: 27px 90px;
+  }
+  .block_head__btn:hover {
+    background-color: #232323;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .block_header {
+    padding: 0px 50px 0 50px;
+  }
+  .block_header__cont {
+    margin-bottom: 0;
+    margin-right: 60px;
+  }
+  .block_header__title {
+    font-size: 106px;
+    margin-bottom: 0;
+  }
+  .block_header__descr {
+    font-size: 28px;
+    margin-bottom: 38px;
+  }
+  .block_header__btn {
+    font-size: 34px;
+    padding: 27px 90px;
+  }
+  .block_header__btn:hover {
+    background-color: #e9e7e7;
+    color: #232323;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .block_header__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .block_header-btm {
+    padding: 30px 330px;
+    background: url(../img/bg-main.png) center/125% no-repeat;
+  }
+  .block_header-btm__title {
+    font-size: 85px;
+  }
+  .block_header-btm__descr {
+    font-size: 28px;
+  }
+  .block_header-btm__btn {
+    font-size: 34px;
+    padding: 27px 90px;
+  }
+  .block_header-btm__btn:hover {
+    background-color: #e9e7e7;
+    color: #232323;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 }
 /*# sourceMappingURL=style.css.map */
