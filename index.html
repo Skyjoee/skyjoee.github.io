@@ -1,255 +1,212 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Самый главный тег на странице -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-    <title>Hello</title>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>Photographer</title>
 </head>
 <body>
-    <div class="container">
-
-    <header class="block_head">
-        <nav class="block_head__nav">
-            <a href="#" class="block_head__links">Home</a>
-            <a href="#" class="block_head__links">Guides</a>
-            <a href="#" class="block_head__links">Flights</a>
-            <a href="#" class="block_head__links">About</a>
-        </nav>
-            <button type="submit" class="block_head__btn">Contact Us</button>
-    </header>
-
-    <setcion class="block_header">
-        <div class="block_header__cont">
-            <h1 class="block_header__title">Travel to
-                your dream
-                destination
-            </h1>
-            <div class="block_header__descr">Lorem ipsum dolor sit amet, 
-                consectetur adipi scing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. 
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header-photography photography-header">
+                    <div class="photography-header__logo">Ricky Ponting</div>
+                    <nav class="photography-header__menu menu-photography">
+                        <a href="#" class="menu-photography__link">Home</a>
+                        <a href="#Portfolio" class="menu-photography__link">Portfolio</a>
+                        <a href="#" class="menu-photography__link">Contact</a>
+                        <a href="#Reviews" class="menu-photography__link">Reviews</a>
+                    </nav>
+                </div>
+                <div class="header-experience experience-header">
+                    <h1 class="experience-header__title">Experience life through best <span>photography</span></h1>
+                    <p class="experience-header__text">Your story deserves to be told in a way that’s real for you. That's something that deserves to be immortalized through photography and film.</p>
+                    <div class="experience-header__button">
+                        <a href="#" class="experience-header__link">Contact Me</a>
+                    </div>
+                    <img src="./img/Contact Me/head-pic.jpg" alt="Photographer Picture" class="experience-header__img">
+                </div>
             </div>
-                <button type="submit" class="block_header__btn">Reserve Ticket</button>
-        </div>
-        <img src="./img/pic-head.png" alt="Travel" class="block_header__img">
-    </setcion>
-
-    <section class="block_header-btm">
-        <p class="block_header-btm__title">Create a memory to remember</p>
-        <p class="block_header-btm__descr">
-            Lorem ipsum dolor sit amet, consectetur adipi scing elit, 
-            sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-            Quis ipsum sus pendisse ultrices gravida. 
-        </p>
-            <button type="submit" class="block_header-btm__btn">My Travel Logs</button>
-    </section>
-
-    <section class="block-main">
-        <div class="block-main__item">
-            <img src="./img/travel_pic1.png" alt="travel" class="block-main__pic">
-            <span></span>
-            <p class="block-main__title">Lorem ipsum
-                dolor sit amet</p>
-            <p class="block-main__descr">Lorem ipsum dolor sit amet, 
-                consectetur adipi scing elit, sed do ei usmod tempor incididunt
-                ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-        </div>
-        <div class="block-main__item">
-            <img src="./img/travel_pic2.png" alt="travel" class="block-main__pic">
-            <span></span>
-            <p class="block-main__title">Lorem ipsum
-                dolor sit amet</p>
-            <p class="block-main__descr">Lorem ipsum dolor sit amet, 
-                consectetur adipi scing elit, sed do ei usmod tempor 
-                incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse
-                 ultrices gravida.</p>
-        </div>
-        <div class="block-main__item">
-            <img src="./img/travel_pic3.png" alt="travel" class="block-main__pic">
-            <span></span>
-            <p class="block-main__title">Lorem ipsum
-                dolor sit amet</p>
-            <p class="block-main__descr">
-                Lorem ipsum dolor sit amet, consectetur adipi scing elit, 
-                sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                Quis ipsum sus pendisse ultrices gravida. 
-            </p>
-        </div>
-    </section>
-
-    <section class="block-airpic">
-        <img src="./icons/air_ico.png" alt="icon" class="block-airpic__icon">
-        <div class="block-airpic__cont">
-            <p class="block-airpic__title">See places you’ve
-                <span>never</span> been before
-            </p>
-        </div>
-        <div class="block-airpic__cont-text">
-            <p class="block-airpic__text">Lorem Ipsum Dolor</p>
-            <span></span>
-            <p class="block-airpic__text">Lorem Ipsum Dolor</p>
-            <span></span>
-            <p class="block-airpic__text">Lorem Ipsum Dolor</p>
-        </div>
-    </section>
-
-    <section class="block-descr">
-        <div class="block-descr__cont-pic">
-            <img src="./img/pic-x.png" alt="" class="block-descr__picture">
-            <img src="./img/tape.png" alt="tape-icon" class="block-descr__tape">
-        </div>
-        <div class="block-descr__cont">
-            <img src="./img/pic-y.png" alt="" class="block-descr__picture-x">
-            <div class="block-descr__cont-text">
-                <p class="block-descr__title">Lorem ipsum
-                    dolor sit amet
-                    consectetur
-                    adipiscing elit
-                    sed do ei
-                </p>
-                <p class="block-descr__text">
-                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud. <br> <br>
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur.                   
-                </p>
+        </header>
+        <main class="page">
+            <section class="page-services services-page">
+                <div class="page__container">
+                    <div class="services-page block-page">
+                        <h2 class="block-page__title">Services I provide</h2>
+                        <p class="block-page__text">I document human stories with a camera. My only goal is to convert your memorable day into images.</p>
+                    </div>
+                    <ul class="page-photography photography-page">
+                        <li class="photography-page__items">
+                            <img src="./img/Services/01.jpg" alt="Photography" class="photography-page__pic">
+                            <p class="photography-page__text">Wedding photography</p>
+                        </li>
+                        <li class="photography-page__items">
+                            <img src="./img/Services/02.jpg" alt="Photography" class="photography-page__pic">
+                            <p class="photography-page__text">Lifestyle photography</p>
+                        </li>
+                        <li class="photography-page__items">
+                            <img src="./img/Services/03.jpg" alt="Photography" class="photography-page__pic">
+                            <p class="photography-page__text">Travel photography</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="Portfolio" class="page-mywork mywork-page">
+                <div class="page__container">
+                    <div class="block-page">
+                        <h2 class="block-page__title">My latest work</h2>
+                        <p class="block-page__text">Let’s have a look on my latest photography and video graphy work.</p>
+                    </div>
+                    <div class="page-mywork__block">
+                        <div class="page-mywork">
+                            <img src="./img/Mywork/01.jpg" alt="Photography Woman" class="page-mywork__img">
+                        </div>
+                        <div class="page-mywork__photos">
+                            <img src="./img/Mywork/02.jpg" alt="Photography Man" class="page-mywork__img">
+                            <div class="page-mywork__agency agency-mywork">
+                                <img src="./img/Mywork/03.jpg" alt="Photography Girl" class="agency-mywork__img">
+                                <p class="agency-mywork__subtitle">Bexon Creative Agency</p>
+                                <a href="#" class="agency-mywork__icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mywork-page__button">
+                        <a href="#" class="mywork-page__link">See All</a>
+                    </div>
+                </div>
+            </section>
+            <section id="Reviews" class="page__reviews reviews">
+                <div class="reviews__container">
+                    <div class="reviews__title block-page">
+                        <h2 class="block-page__title">What clients say</h2>
+                        <p class="block-page__text">Let’s have a look what’s my clients say about my photography and video graphy work.</p>
+                    </div>
+                    <div class="reviews__swiper swiper-reviews swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-reviews__wrapper swiper-wrapper">
+                          <!-- Slides -->
+                            <div class="swiper-wrapper__slide swiper-slide">
+                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
+                                    <div class="reviews-wrapper">
+                                        <div class="reviews-block block-reviews">
+                                            <span class="block-reviews__icon"></span>
+                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
+                                            <p class="block-reviews__name">Kate Winslet</p>
+                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
+                                        </div>
+                                        <div class="reviews__img">
+                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-wrapper__slide swiper-slide">
+                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
+                                    <div class="reviews-wrapper">
+                                        <div class="reviews-block block-reviews">
+                                            <span class="block-reviews__icon"></span>
+                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
+                                            <p class="block-reviews__name">Kate Winslet</p>
+                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
+                                        </div>
+                                        <div class="reviews__img">
+                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-wrapper__slide swiper-slide">
+                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
+                                    <div class="reviews-wrapper">
+                                        <div class="reviews-block block-reviews">
+                                            <span class="block-reviews__icon"></span>
+                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
+                                            <p class="block-reviews__name">Kate Winslet</p>
+                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
+                                        </div>
+                                        <div class="reviews__img">
+                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-reviews__pagination swiper-pagination"></div>
+                      </div>
+                </div>
+            </section>
+            <section class="page__impression impression">
+                <div class="impression__container">
+                    <div class="impression__block">
+                        <div class="impression__img">
+                            <img src="./img/Impression/01.jpg" alt="Photo Man">
+                        </div>
+                        <div class="impression__body block-page">
+                            <h2 class="block-page__title">Let’s do impression together</h2>
+                            <p class="block-page__text impression__text">I document human stories with a camera. <br>
+                                My only goal is to convert your wedding day into images, that tell a story for generations to come. That’s what it’s all about for me.</p>
+                            <div class="impression__button page-button">
+                                <a href="#" class="impression__link page-button__link">
+                                    Let’s Chat
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer-block block-footer">
+                    <div class="block-footer__logo">
+                        <p class="block-footer__title">Ricky Ponting</p>
+                        <p class="block-footer__allrights">© webdesign.gdn all rights reserved</p>
+                        <p class="block-footer__privacy">Terms & Privacy</p>
+                    </div>
+                    <div class="block-footer-menu menu-footer">
+                        <nav class="menu-footer__nav">
+                            <a href="#" class="menu-footer__links">Blog</a>
+                            <a href="#" class="menu-footer__links">Career</a>
+                            <a href="#" class="menu-footer__links">Gallery</a>
+                        </nav>
+                        <nav class="menu-footer__nav">
+                            <a href="#" class="menu-footer__links">Home</a>
+                            <a href="#" class="menu-footer__links">Portfolio</a>
+                            <a href="#" class="menu-footer__links">Contact</a>
+                            <a href="#" class="menu-footer__links">Reviews</a>
+                        </nav>
+                    </div>
+                    <div class="block-footer__subscribe subscribe-footer">
+                        <form action="#" class="subscribe-footer__forma">
+                            <label for="fname" class="subscribe-footer__subtitle">Subscribe    for news update</label>
+                            <div class="subscribe-footer__block">
+                                <input type="email" id="email" name="email" placeholder="Your email" class="subscribe-footer__email">
+                                <button class="subscribe-footer__button">Subscribe</button>
+                            </div>
+                        </form>
+                        <div class="subscribe-footer__icons">
+                            <a href="" class="subscribe-footer__icon">
+                                <img src="./icons/facebook.png" alt="Facebook">
+                            </a>
+                            <a href="" class="subscribe-footer__icon">
+                                <img src="./icons/twitter.png" alt="Twitter">
+                            </a>
+                            <a href="" class="subscribe-footer__icon">
+                                <img src="./icons/linked.png" alt="Linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <img src="./icons/arrow.png" alt="arrow-icon" class="block-descr__arrow-icon">
-    </section>
-
-    <section class="descr-btm">
-        <div class="descr-btm__cont">
-            <p class="descr-btm__title">Choose anywhere
-                you’d like to be
-            </p>
-            <p class="descr-btm__subtitle">
-                Lorem Ipsum dolor
-            </p>
-            <p class="descr-btm__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre 
-                henderit in voluptate velit esse.
-            </p>
-            <p class="descr-btm__subtitle">
-                Lorem Ipsum dolor
-            </p>
-            <p class="descr-btm__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre 
-                henderit in voluptate velit esse.
-            </p>
-        </div>
-        <img src="./img/pic-w.png" alt="picture" class="descr-btm__picture">
-    </section>
-
-    <section class="descr-menu">
-        <div class="descr-menu__cont">
-            <p class="descr-menu__title">
-                Lorem ipsum dolor
-                sit amet consectetur
-            </p>
-            <p class="descr-menu__text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</p>
-            <p class="descr-menu__text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</p>
-            <p class="descr-menu__text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</p>
-            <p class="descr-menu__text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod</p>
-        </div>
-        <img src="./img/pic-b.png" alt="picture" class="descr-menu__picture">
-    </section>
-
-    <section class="footer">
-        <p class="footer__title">
-            Here’s what they
-            have to say...
-        </p>
-        <div class="footer__cont">
-            <div class="footer__item">
-                <img src="./icons/icon.png" alt="icon" class="footer__icon">
-               <p class="footer__subtitle">Customer Name</p> 
-               <p class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
-               </p>
-               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-              </svg>
-            </div>
-            <div class="footer__item">
-                <img src="./icons/icon.png" alt="icon" class="footer__icon">
-               <p class="footer__subtitle">Customer Name</p> 
-               <p class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="footer__item">
-                <img src="./icons/icon.png" alt="icon" class="footer__icon">
-               <p class="footer__subtitle">Customer Name</p> 
-               <p class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
-               </p>
-               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-            </svg>
-            </div>
-        </div>
-    </section>
-
-    <section class="footer-floor">
-        <div class="footer-floor__cont">
-            <p class="footer-floor__title">Be updated!</p>
-            <form action="/my-handling-form-page" method="post" class="footer-floor__form">
-                <input type="text" id="fname" name="firstname" placeholder="First Name*" class="footer-floor__area">
-                <input type="text" id="fname" name="lastname" placeholder="Last Name*" class="footer-floor__area">
-                <input type="text" id="fname" name="email" placeholder="Email Subject*" class="footer-floor__area">
-                <textarea id="msg" required name="user_message" placeholder="Write something here..." class="footer-floor__area textarea"></textarea>
-              </form>
-              <button type="submit" class="footer-floor__btn">Submit Email</button>
-        </div>
-        <div class="footer-floor__img">
-            <img src="./img/pic-foot.png" alt="picture" class="footer-floor__picture">
-        </div>
-    </section>
-
-    <footer class="block_foot">
-        <p href="#" class="block_foot__title">My Log <br>
-            Travels
-        </p>
-        <div class="block_foot__cont">
-            <p class="block_foot__subtitle">Quick Links</p>
-            <nav class="block_foot__menu">
-                <ul>
-                    <li><a href="#" class="block_foot__links">home</a></li>
-                    <li><a href="#" class="block_foot__links">about us</a></li>
-                    <li><a href="#" class="block_foot__links">my travel logs</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#" class="block_foot__links">travels</a></li>
-                    <li><a href="#" class="block_foot__links">promo fligts</a></li>
-                    <li><a href="#" class="block_foot__links">travel routes</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#" class="block_foot__links">recommendations</a></li>
-                    <li><a href="#" class="block_foot__links">guides</a></li>
-                    <li><a href="#" class="block_foot__links">blogs</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#" class="block_foot__links">mission statement</a></li>
-                    <li><a href="#" class="block_foot__links">the team</a></li>
-                    <li><a href="#" class="block_foot__links">contact us</a></li>
-                </ul>  
-            </nav>
-            <p class="block_foot__text">2021 - 2022 My Log Travels. All Rights Reserved.</p>
-        </div>
-    </footer>
-
+        </footer>
     </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
