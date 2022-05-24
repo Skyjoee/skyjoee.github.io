@@ -4,209 +4,381 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Inter:500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,600italic&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <title>Photographer</title>
+    <title>Delivering</title> 
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
-                <div class="header-photography photography-header">
-                    <div class="photography-header__logo">Ricky Ponting</div>
-                    <nav class="photography-header__menu menu-photography">
-                        <a href="#" class="menu-photography__link">Home</a>
-                        <a href="#Portfolio" class="menu-photography__link">Portfolio</a>
-                        <a href="#" class="menu-photography__link">Contact</a>
-                        <a href="#Reviews" class="menu-photography__link">Reviews</a>
+                <div class="header__block block-header">
+                    <div class="header__logo logo">
+                        <a href="#" class="logo__ration">Rati<span>ons.</span></a>
+                    </div>
+                    <div class="logo-header__burger-menu burger-menu-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="header__menu menu-header">
+                        <a href="#" class="menu-header__links">Home</a>
+                        <a href="#AboutUs" class="menu-header__links">About Us</a>
+                        <a href="#Menu" class="menu-header__links">Menu</a>
+                        <a href="#Review" class="menu-header__links">Review</a>
+                        <a href="#ContactUs" class="menu-header__links">Contact Us</a>
                     </nav>
-                </div>
-                <div class="header-experience experience-header">
-                    <h1 class="experience-header__title">Experience life through best <span>photography</span></h1>
-                    <p class="experience-header__text">Your story deserves to be told in a way that’s real for you. That's something that deserves to be immortalized through photography and film.</p>
-                    <div class="experience-header__button">
-                        <a href="#" class="experience-header__link">Contact Me</a>
+                    <div class="header__buttons buttons-header">
+                        <button class="buttons-header__login">Log in</button>
+                        <button class="buttons-header__signup">Sign Up</button>
                     </div>
-                    <img src="./img/Contact Me/head-pic.jpg" alt="Photographer Picture" class="experience-header__img">
                 </div>
-            </div>
+            </div> 
         </header>
-        <main class="page">
-            <section class="page-services services-page">
-                <div class="page__container">
-                    <div class="services-page block-page">
-                        <h2 class="block-page__title">Services I provide</h2>
-                        <p class="block-page__text">I document human stories with a camera. My only goal is to convert your memorable day into images.</p>
+        <main class="main">
+            <section class="main__delivering delivering">
+                <div class="delivering__container">
+                    <div class="delivering__block">
+                        <div class="delivering__content">
+                            <h1 class="delivering__title">Delivering Happiness.</h1>
+                            <p class="delivering__text">Just order and wait for a while we’ll be there at your door. Delivering the best foods for you. We are deliverying the best foods.</p>
+                            <div class="delivering__buttons buttons-delivering">
+                                <button class="buttons-delivering__button">
+                                    Explore Menu
+                                </button>
+                                <a href="#" class="buttons-delivering__video">
+                                    <img src="./icons/arrow.svg" alt="Icon video" class="buttons-delivering__icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="delivering__img">
+                            <div class="delivering__reviews reviews-delivering">
+                                <p class="reviews-delivering__subtitle">Cheese Burger</p>
+                                <div class="reviews-delivering__block">
+                                    <p class="reviews-delivering__text">4.8 (12.5K Review)</p>
+                                    <ul class="reviews-delivering__items">
+                                        <li class="reviews-delivering__item">
+                                            <img src="./icons/reviews/01.png" alt="photo reviews">
+                                        </li>
+                                        <li class="reviews-delivering__item">
+                                            <img src="./icons/reviews/02.png" alt="photo reviews">
+                                        </li>
+                                        <li class="reviews-delivering__item">
+                                            <img src="./icons/reviews/03.png" alt="photo reviews">
+                                        </li>
+                                        <li class="reviews-delivering__item">
+                                            <img src="./icons/reviews/04.png" alt="photo reviews">
+                                        </li>
+                                        <li class="reviews-delivering__plus">
+                                            <a href="#" class="reviews-delivering__icon-plus">
+                                                <img src="./icons/plus.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="delivering__arrow">
+                            <img src="./icons/bot-arrow.png" alt="arrow icon">
+                        </a>
                     </div>
-                    <ul class="page-photography photography-page">
-                        <li class="photography-page__items">
-                            <img src="./img/Services/01.jpg" alt="Photography" class="photography-page__pic">
-                            <p class="photography-page__text">Wedding photography</p>
-                        </li>
-                        <li class="photography-page__items">
-                            <img src="./img/Services/02.jpg" alt="Photography" class="photography-page__pic">
-                            <p class="photography-page__text">Lifestyle photography</p>
-                        </li>
-                        <li class="photography-page__items">
-                            <img src="./img/Services/03.jpg" alt="Photography" class="photography-page__pic">
-                            <p class="photography-page__text">Travel photography</p>
-                        </li>
-                    </ul>
                 </div>
             </section>
-            <section id="Portfolio" class="page-mywork mywork-page">
-                <div class="page__container">
-                    <div class="block-page">
-                        <h2 class="block-page__title">My latest work</h2>
-                        <p class="block-page__text">Let’s have a look on my latest photography and video graphy work.</p>
-                    </div>
-                    <div class="page-mywork__block">
-                        <div class="page-mywork">
-                            <img src="./img/Mywork/01.jpg" alt="Photography Woman" class="page-mywork__img">
+            <section id="AboutUs" class="main__achievements achievements">
+                <div class="achievements__container">
+                    <div class="achievements__content content-achievements">
+                        <div class="content-achievements__items">
+                            <p class="content-achievements__subtitle">2K+</p>
+                            <p class="content-achievements__text">Foot Item</p>
                         </div>
-                        <div class="page-mywork__photos">
-                            <img src="./img/Mywork/02.jpg" alt="Photography Man" class="page-mywork__img">
-                            <div class="page-mywork__agency agency-mywork">
-                                <img src="./img/Mywork/03.jpg" alt="Photography Girl" class="agency-mywork__img">
-                                <p class="agency-mywork__subtitle">Bexon Creative Agency</p>
-                                <a href="#" class="agency-mywork__icon"></a>
+                        <div class="content-achievements__items">
+                            <p class="content-achievements__subtitle">10K+</p>
+                            <p class="content-achievements__text">Home Delivery</p>
+                        </div>
+                        <div class="content-achievements__items">
+                            <p class="content-achievements__subtitle">100+</p>
+                            <p class="content-achievements__text">Active Chef</p>
+                        </div>
+                        <div class="content-achievements__items">
+                            <p class="content-achievements__subtitle">20K+</p>
+                            <p class="content-achievements__text">Our Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__services services">
+                <div class="services__container">
+                    <div class="services__block">
+                        <div class="services__main main-title">
+                            <h2 class="main-title__title">Our Services</h2>
+                            <p class="main-title__text">All the features you want. Rations makes it easy to build and manage your food order.</p>
+                        </div>
+                        <div class="services__body body-services">
+                            <div class="body-services__item item-services">
+                                <div class="item-services__icon">
+                                    <img src="./icons/services/01.png" alt="">
+                                </div>
+                                <p class="item-services__subtitle">Free Delivery</p>
+                                <p class="item-services__text">We are providing free home delivery services for our clients at anytime, anywhere of the corner.</p>
+                            </div>
+                            <div class="body-services__item item-services">
+                                <div class="item-services__icon">
+                                    <img src="./icons/services/02.png" alt="">
+                                </div>
+                                <p class="item-services__subtitle">24/7 Open</p>
+                                <p class="item-services__text">Our restaurant is open 24 hours and we are providing the best services for our honorable clients.</p>
+                            </div>
+                            <div class="body-services__item item-services">
+                                <div class="item-services__icon">
+                                    <img src="./icons/services/03.png" alt="">
+                                </div>
+                                <p class="item-services__subtitle">Delicious Dishes</p>
+                                <p class="item-services__text">We are providing delicious so many food items that you will love most to eat in your daily life.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="mywork-page__button">
-                        <a href="#" class="mywork-page__link">See All</a>
+                </div>
+            </section>
+            <section id="Menu" class="main__menu menu">
+                <div class="menu__container">
+                    <div class="menu__block">
+                        <div class="menu__main main-title">
+                            <h2 class="main-title__title">Explore Our Best Menu</h2>
+                            <p class="main-title__text">Explore our best menu and order the suitable one. We are here to provide all the delicious dishes.</p>
+                        </div>
+                        <div class="menu__content content-menu">
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/01.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Salad, Greens</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/02.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Salad, Greens</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/03.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Cheese Burger</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/04.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Chicken Biryani</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/05.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Spicy Pizza</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                            <div class="content-menu__item item-content">
+                                <div class="item-content__img">
+                                    <img src="./img/Menu/06.jpg" alt="Salad">
+                                </div>
+                                <div class="item-content__rate">
+                                    <span class="item-content__numb">4.8</span>
+                                </div>
+                                <p class="item-content__subtitle">Sandwiches</p>
+                                <div class="item-content__buttons">
+                                    <button class="item-content__button">Order Now</button>
+                                    <div class="item-content__price">$25.00</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="Reviews" class="page__reviews reviews">
-                <div class="reviews__container">
-                    <div class="reviews__title block-page">
-                        <h2 class="block-page__title">What clients say</h2>
-                        <p class="block-page__text">Let’s have a look what’s my clients say about my photography and video graphy work.</p>
-                    </div>
-                    <div class="reviews__swiper swiper-reviews swiper">
+            <section id="Review" class="main__clients clients">
+                <div class="clients__container">
+                    <div class="clients__swiper swiper-clients swiper mySwiper">
                         <!-- Additional required wrapper -->
-                        <div class="swiper-reviews__wrapper swiper-wrapper">
+                        <div class="swiper-clients__wrapper swiper-wrapper">
                           <!-- Slides -->
-                            <div class="swiper-wrapper__slide swiper-slide">
-                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
-                                    <div class="reviews-wrapper">
-                                        <div class="reviews-block block-reviews">
-                                            <span class="block-reviews__icon"></span>
-                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
-                                            <p class="block-reviews__name">Kate Winslet</p>
-                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
+                            <div class="swiper-clients__slide swiper-slide">
+                                <div class="swiper-clients__slide slide-swiper-reviews swiper-slide">
+                                    <div class="clients-wrapper">
+                                        <div class="clients__block main-title">
+                                            <span class="clients__line"></span>
+                                            <h2 class="main-title__title clients__title">What Our Clients Say About Us.</h2>
+                                            <p class="main-title__text clients__text">“They are the best people. And this is the suitable platform to ordering food online. I have enjoyed a lot to order with them. They are very helpful and faster people.”
+                                            </p>
+                                            <p class="clients__name">Kyle Mills</p>
                                         </div>
-                                        <div class="reviews__img">
-                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-wrapper__slide swiper-slide">
-                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
-                                    <div class="reviews-wrapper">
-                                        <div class="reviews-block block-reviews">
-                                            <span class="block-reviews__icon"></span>
-                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
-                                            <p class="block-reviews__name">Kate Winslet</p>
-                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
-                                        </div>
-                                        <div class="reviews__img">
-                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
+                                        <div class="clients__img">
+                                            <img src="./img/Clients/01.jpg" alt="Photo Man">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-wrapper__slide swiper-slide">
-                                <div class="swiper-wrapper__slide slide-swiper-reviews swiper-slide">
-                                    <div class="reviews-wrapper">
-                                        <div class="reviews-block block-reviews">
-                                            <span class="block-reviews__icon"></span>
-                                            <p class="block-reviews__descr">As a professionally trained photographer and creative visual artist, she did outstanding work. I am so glad that she did the photography and video graphy in my wedding and my other social engagement.</p>
-                                            <p class="block-reviews__name">Kate Winslet</p>
-                                            <p class="block-reviews__adress">Long Beach, Califoria</p>
+                            <div class="swiper-clients__slide swiper-slide">
+                                <div class="swiper-clients__slide slide-swiper-reviews swiper-slide">
+                                    <div class="clients-wrapper">
+                                        <div class="clients__block main-title">
+                                            <span class="clients__line"></span>
+                                            <h2 class="main-title__title clients__title">What Our Clients Say About Us.</h2>
+                                            <p class="main-title__text clients__text">“They are the best people. And this is the suitable platform to ordering food online. I have enjoyed a lot to order with them. They are very helpful and faster people.”</p>
+                                            <p class="clients__name">Kyle Mills</p>
                                         </div>
-                                        <div class="reviews__img">
-                                            <img src="./img/Reviews/01.jpg" alt="Photo Girl">
+                                        <div class="clients__img">
+                                            <img src="./img/Clients/01.jpg" alt="Photo Man">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-clients__slide swiper-slide">
+                                <div class="swiper-clients__slide slide-swiper-reviews swiper-slide">
+                                    <div class="clients-wrapper">
+                                        <div class="clients__block main-title">
+                                            <span class="clients__line"></span>
+                                            <h2 class="main-title__title clients__title">What Our Clients Say About Us.</h2>
+                                            <p class="main-title__text clients__text">“They are the best people. And this is the suitable platform to ordering food online. I have enjoyed a lot to order with them. They are very helpful and faster people.”</p>
+                                            <p class="clients__name">Kyle Mills</p>
+                                        </div>
+                                        <div class="clients__img">
+                                            <img src="./img/Clients/01.jpg" alt="Photo Man">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- If we need pagination -->
-                        <div class="swiper-reviews__pagination swiper-pagination"></div>
-                      </div>
-                </div>
-            </section>
-            <section class="page__impression impression">
-                <div class="impression__container">
-                    <div class="impression__block">
-                        <div class="impression__img">
-                            <img src="./img/Impression/01.jpg" alt="Photo Man">
+                        <div class="swiper-button-next clients-next">
+                            <i class="fa-solid fa-arrow-right clients-arrow"></i>
                         </div>
-                        <div class="impression__body block-page">
-                            <h2 class="block-page__title">Let’s do impression together</h2>
-                            <p class="block-page__text impression__text">I document human stories with a camera. <br>
-                                My only goal is to convert your wedding day into images, that tell a story for generations to come. That’s what it’s all about for me.</p>
-                            <div class="impression__button page-button">
-                                <a href="#" class="impression__link page-button__link">
-                                    Let’s Chat
-                                </a>
-                            </div>
+                        <div class="swiper-button-prev clients-prev">
+                            <i class="fa-solid fa-arrow-left clients-arrow"></i>
                         </div>
+                        <!-- <div class="swiper-clients__pagination swiper-pagination"></div> -->
                     </div>
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer id="ContactUs" class="footer">
             <div class="footer__container">
-                <div class="footer-block block-footer">
-                    <div class="block-footer__logo">
-                        <p class="block-footer__title">Ricky Ponting</p>
-                        <p class="block-footer__allrights">© webdesign.gdn all rights reserved</p>
-                        <p class="block-footer__privacy">Terms & Privacy</p>
-                    </div>
-                    <div class="block-footer-menu menu-footer">
-                        <nav class="menu-footer__nav">
-                            <a href="#" class="menu-footer__links">Blog</a>
-                            <a href="#" class="menu-footer__links">Career</a>
-                            <a href="#" class="menu-footer__links">Gallery</a>
-                        </nav>
-                        <nav class="menu-footer__nav">
-                            <a href="#" class="menu-footer__links">Home</a>
-                            <a href="#" class="menu-footer__links">Portfolio</a>
-                            <a href="#" class="menu-footer__links">Contact</a>
-                            <a href="#" class="menu-footer__links">Reviews</a>
-                        </nav>
-                    </div>
-                    <div class="block-footer__subscribe subscribe-footer">
-                        <form action="#" class="subscribe-footer__forma">
-                            <label for="fname" class="subscribe-footer__subtitle">Subscribe    for news update</label>
-                            <div class="subscribe-footer__block">
-                                <input type="email" id="email" name="email" placeholder="Your email" class="subscribe-footer__email">
-                                <button class="subscribe-footer__button">Subscribe</button>
-                            </div>
-                        </form>
-                        <div class="subscribe-footer__icons">
-                            <a href="" class="subscribe-footer__icon">
-                                <img src="./icons/facebook.png" alt="Facebook">
-                            </a>
-                            <a href="" class="subscribe-footer__icon">
-                                <img src="./icons/twitter.png" alt="Twitter">
-                            </a>
-                            <a href="" class="subscribe-footer__icon">
-                                <img src="./icons/linked.png" alt="Linkedin">
-                            </a>
+                <div class="footer__block block-footer">
+                    <div class="footer__descr">
+                        <div class="main-title">
+                            <h2 class="footer__title main-title__title">Ready to order your favourite food?</h2>
                         </div>
+                        <div class="footer__logo logo">
+                            <a href="#" class="logo__ration footer-logo">Rati<span>ons.</span></a>
+                        </div>
+                        <p class="footer__text">
+                            Food order now super easy for everyone. Let’s order your food through our website and enjoy your ordering.
+                        </p>
                     </div>
+                    <div class="footer__navigation">
+                        <div class="footer__buttons buttons-footer">
+                            <button class="buttons-footer__button buttons-footer__order"> Order Now</button>
+                            <button class="buttons-footer__button buttons-footer__learn">Learn More</button>
+                        </div>
+                        <nav class="footer__menu menu-footer">
+                            <ul class="menu-footer__links">
+                                <p class="menu-footer__subtitle">Company</p>
+                                <li class="menu-footer__link">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="menu-footer__link">
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li class="menu-footer__link">
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-footer__links">
+                                <p class="menu-footer__subtitle">Features</p>
+                                <li class="menu-footer__link">
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li class="menu-footer__link">
+                                    <a href="#">Support</a>
+                                </li>
+                                <li class="menu-footer__link">
+                                    <a href="#">Privacy</a>
+                                </li>
+                                <li class="menu-footer__link">
+                                    <a href="#">Security</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-footer__support support-menu">
+                                <p class="menu-footer__subtitle">Support</p>
+                                <li class="menu-footer__link support-menu__link">
+                                    <img src="./icons/contact/01.svg" alt="phone">
+                                    <a href="tel:+8801706499216">+880 1706 499 216</a>
+                                </li>
+                                <li class="menu-footer__link support-menu__link">
+                                    <img src="./icons/contact/02.svg" alt="email">
+                                    <a href="mailto:email@gmail.com">email@gmail.com</a>
+                                </li>
+                                <li class="menu-footer__link support-menu__link">
+                                    <img src="./icons/contact/03.svg" alt="location">
+                                    <a href="https://goo.gl/maps/mYRKChBvstyuZRTb7">4/5 Seddon Park, Hamilton New Zealand.</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__reserved reserved-footer">
+                    <p class="reserved-footer__text">© Copyright 2022 webdesign.gdn All Rights Reserved</p>
+                    <ul class="reserved-footer__socials">
+                        <li class="reserved-footer__social">
+                            <i class="fa-brands fa-facebook-f reserved-footer__facebook"></i>
+                        </li>
+                        <li class="reserved-footer__social">
+                            <i class="fa-brands fa-linkedin-in reserved-footer__linked"></i>
+                        </li>
+                        <li class="reserved-footer__social">
+                            <i class="fa-brands fa-twitter reserved-footer__twitter"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/4e91908cdb.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
